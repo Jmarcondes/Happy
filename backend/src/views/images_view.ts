@@ -4,7 +4,10 @@ export default {
   render(image: Image) {
     return {
       id: image.id,
-      url: `http://localhost:3333/uploads/${image.path}`,  
+      //url from web application
+      //url: `http://localhost:3333/uploads/${image.path}`,
+      //url from mobile application
+      url: `http://10.0.0.108:3333/uploads/${image.path}`,
     };
   },
 
